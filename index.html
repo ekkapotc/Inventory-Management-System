@@ -1,0 +1,33 @@
+<html>
+<head>
+       
+    <meta charset="UTF-8">
+    
+    <title>ระบบค้นหาและจัดการครุภัณฑ์ TGGS</title>
+</head>
+<body>
+    
+<!--body background="media/tggs.jpg"-->
+
+<p><h1><b><center>ค้นหาครุภัณฑ์</center></b></h1></p>
+
+<form id="form" action="query.php" method="POST">
+หมายเลขครุภัณฑ์: <input type="text" name="inventory_no"><br><br>
+ประเภทงบประมาณ: <br><br>
+<input name="budget" type="radio" value="Budget"> 
+<span>งบประมาณแผ่นดิน</span>
+<br>
+<input name="budget" type="radio" value="Budget2"> 
+<span> งบรายได้ </span>
+<br>
+<input name="budget" type="radio" value="Budget3">
+<span>งบเก่า</span>  
+<br>
+<input name="budget" type="radio" value="Budget4">
+<span>สาขาวิชาวิศวกรรมวัสดุและการผลิต (MPE)</span>
+<br>
+<button type="submit" value="search"> ค้นหา</button>
+</form>
+
+</body>
+</html>
